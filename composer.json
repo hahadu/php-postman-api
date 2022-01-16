@@ -1,0 +1,26 @@
+{
+    "name": "hahadu/postman-api",
+    "description": "collection array",
+    "type": "think-extend",
+    "keywords": [
+        "php postman api"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "hahadu",
+            "email": "582167246@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-json": "*",
+        "hahadu/helper-function": "^0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hahadu\\PostmanApi\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

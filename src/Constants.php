@@ -14,6 +14,8 @@ class Constants
     const POSTMAN_APIS_ENVIRONMENTS_URI = self::POSTMAN_APIS_URI_HOST."environments".DIRECTORY_SEPARATOR;
     /** @var string workspaces */
     const POSTMAN_APIS_WORKSPACES_URI = self::POSTMAN_APIS_URI_HOST."workspaces".DIRECTORY_SEPARATOR;
+    /** @var string workspaces */
+    const POSTMAN_APIS_MONITORS_URI = self::POSTMAN_APIS_URI_HOST."monitors".DIRECTORY_SEPARATOR;
 
     /** @var string 创建分支 */
     const POSTMAN_APIS_COLLECTIONS_FORK_URI = self::POSTMAN_APIS_COLLECTIONS_URI."fork".DIRECTORY_SEPARATOR;
